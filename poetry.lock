@@ -411,7 +411,7 @@ test = ["appdirs (==1.4.4)", "pytest (>=6)", "pytest-cov (>=2.7)", "pytest-mock 
 
 [[package]]
 name = "playwright"
-version = "1.26.0"
+version = "1.27.0"
 description = "A high-level API to automate web browsers"
 category = "main"
 optional = false
@@ -420,7 +420,6 @@ python-versions = ">=3.7"
 [package.dependencies]
 greenlet = "1.1.3"
 pyee = "8.1.0"
-websockets = "10.1"
 
 [[package]]
 name = "pycodestyle"
@@ -1405,13 +1404,13 @@ platformdirs = [
     {file = "platformdirs-2.5.2.tar.gz", hash = "sha256:58c8abb07dcb441e6ee4b11d8df0ac856038f944ab98b7be6b27b2a3c7feef19"},
 ]
 playwright = [
-    {file = "playwright-1.26.0-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:4841796a44582b0d4cc0424ebce2da717d3aa04adb4051145dc480be198549bb"},
-    {file = "playwright-1.26.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:5d910b865a6c539d3589d1a9a67d221f060460b812b65f933e872f8762bd640a"},
-    {file = "playwright-1.26.0-py3-none-macosx_11_0_universal2.whl", hash = "sha256:fd7546d4b61ebe7fd1f1fa5eebdaf884263d97b111be6208a02a1bde5f36308f"},
-    {file = "playwright-1.26.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:c6d9df284a74897eb667ee8e865137ed2fbdd93b8ba8f43e257871a3fbf1e9c4"},
-    {file = "playwright-1.26.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:759292562f50e7f04ef75eac7039ab7149461b2ac97c91f77d73cc974b3f49bb"},
-    {file = "playwright-1.26.0-py3-none-win32.whl", hash = "sha256:aa3e8ee10bce4d8992a8332f4358ab571724dfd0c34540e6b56e7ac062cc6e20"},
-    {file = "playwright-1.26.0-py3-none-win_amd64.whl", hash = "sha256:a04a549a32cea8000036274af6fe7e7b7ac3697021cd3cc2bb3e92341b89147d"},
+    {file = "playwright-1.27.0-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:cd1ebac1e261eb58b393f9f504c223b0129dda3a19a41bba47c86abbd1301ca7"},
+    {file = "playwright-1.27.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:b5ae41c4313af04b9deb2b2cf6c1ebeb9deb1fa66149d8026ce48a45cbaaeb08"},
+    {file = "playwright-1.27.0-py3-none-macosx_11_0_universal2.whl", hash = "sha256:8c0989016156539f58286831c4ff200260f2173e4026330697e257aa7609f7eb"},
+    {file = "playwright-1.27.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:7c0bd4af19ea145cd3aa4f9f1009e4e4b0ffd05a78235c5338a35e83366e68b5"},
+    {file = "playwright-1.27.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8bb56b53fa10aaedb32c28eef06a0579244c2ccf3ddf9238fb09044bfb6c493e"},
+    {file = "playwright-1.27.0-py3-none-win32.whl", hash = "sha256:fe90b890061f729d2ea2f547fc5b316a5e6361e3659fbc639ee35e08be38d13f"},
+    {file = "playwright-1.27.0-py3-none-win_amd64.whl", hash = "sha256:8cbeab451099cf0d52d9e80baf970363f900c8cc85ecf4d7dcde76a86c47880a"},
 ]
 pycodestyle = [
     {file = "pycodestyle-2.9.1-py2.py3-none-any.whl", hash = "sha256:d1735fc58b418fd7c5f658d28d943854f8a849b01a5d0a1e6f3f3fdd0166804b"},
